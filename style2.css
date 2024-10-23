@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.array-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.array-inputs p {
+    margin-bottom: 5px;
+}
+
+.array-inputs input, .array-inputs button {
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+.array-inputs #a_generate {
+    margin-top: 10px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.algos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.algos button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 15px;
+    font-size: large;
+    margin: 0 10px;
+}
+
+.algos button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.header_center {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nav-heading {
+    font-size: xxx-large;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.Complexity_Containers {
+    margin-top: 20%;
+}
+
+.Pair_Definitions {
+    margin-top: 20%;
+}
+
+.Pair_Definitions p {
+    display: inline;
+}
+
+.Pair_Definitions p.Sub_Heading {
+    font-size: medium;
+    text-transform: none;
+}
+
+#Info_Cont1 {
+    padding: 20% 10%;
+}
+
+#Info_Cont1 h3 {
+    text-decoration: underline;
+}
+
+#array_container {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+#Info_Cont2 {
+    padding: 20% 10%;
+}
+
+#Info_Cont2 h3 {
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(59, 58, 58);
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.chatbox {
+    background-color: white;
+    padding: 10px;
+    height: 80vh;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-area {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-top: 1px solid #ccc;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
